@@ -1,0 +1,10 @@
+solve;
+print '---------';
+print '---Start Variables---';
+for {i in 1.._nvars}
+    print _varname[i] & '|' & _var[i];
+print '---End Variables---';
+print '---Start Objectives---';
+for {i in 1.._nobjs}
+    print _objname[i] & '|' & _obj[i];
+print '---End Objectives---';
